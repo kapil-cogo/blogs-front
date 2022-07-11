@@ -1,10 +1,167 @@
-.App {
+body{
+  color: blue;
+}
+
+.whole-page{
+  background-color: black;
+}
+
+.single-blog{
+  padding: 1rem;
+  width: 100%
+}
+
+
+.img-short-open{
+  display: flex;
+  box-shadow: 0 0 15px;
+}
+
+.h3, h3 {
   text-align: center;
 }
+
+.blog-title{
+  color: white;
+}
+
+.open-like{
+    text-align: center;
+    align-self: center;
+    padding-top: 1rem;
+}
+
+ .short-open{
+  padding: 1.5rem;
+} 
+
+.top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.add-search{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.h1, h1 {
+  font-size: calc(1.375rem + 1.5vw);
+  color: white;
+  font-size: xxx-large;
+}
+
+.desc{
+  color: aliceblue;
+}
+
+.edit-login-create{
+  background-color: black;
+  height: 100vh;
+}
+
+.whole-single{
+  background-color: black;
+  height: 100vh;
+}
+
+.single-blog-container{
+  padding: 1rem;
+}
+.img-desc{
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 0 10px white;
+}
+
+.desc-id{
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+}
+
+.description{
+  align-self: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.desc-ed{
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ed-dl{
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.container{
+  background-color: black;
+}
+
+
+
+
+
+/* .short-desc{
+  width: 50%;
+} */
+/* .App {
+  text-align: center;
+}
+
+
+
+.top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.whole-single{
+  height: 100vh;
+}
+
+.blogs-section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.single-blog{
+  align-content: center;
+  align-self: center;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.blog-title{
+  align-self: center;
+}
+
+.img-short{
+  display: flex;
+  flex-direction: row;
+}
+
+.short-desc{
+  align-items: center;
+  word-break: break-word;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +192,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
